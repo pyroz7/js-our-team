@@ -57,7 +57,7 @@ function printArrayTeams(arrayTeams) {
 
 document.getElementById("team_cards").innerHTML += `
     <div class="card col-4">
-        <img src="./img/wayne-barnett-founder-ceo.jpg${teams[0].image}" class="card-img-top" alt="Wayne">
+        <img src="./img/wayne-barnett-founder-ceo.jpg" class="card-img-top" alt="Wayne">
         <div class="card-body">
             <p class="card-text">${teams[0].name}</p>
             <p>${teams[0].role}</p>
@@ -67,7 +67,7 @@ document.getElementById("team_cards").innerHTML += `
 `
 document.getElementById("team_cards").innerHTML += `
     <div class="card col-4">
-        <img src="./img/${teams[1].image}" class="card-img-top" alt="Angela">
+        <img src="./img/angela-caroll-chief-editor.jpg" class="card-img-top" alt="Angela">
         <div class="card-body">
             <p class="card-text">${teams[1].name}</p>
             <p>${teams[1].role}</p>
@@ -77,7 +77,7 @@ document.getElementById("team_cards").innerHTML += `
 
 document.getElementById("team_cards").innerHTML += `
     <div class="card col-4">
-        <img src="./img/${teams[2].image}" class="card-img-top" alt="Walter">
+        <img src="./img/walter-gordon-office-manager.jpg" class="card-img-top" alt="Walter">
         <div class="card-body">
             <p class="card-text">${teams[2].name}</p>
             <p>${teams[2].role}</p>
@@ -86,7 +86,7 @@ document.getElementById("team_cards").innerHTML += `
 ` 
 document.getElementById("team_cards").innerHTML += `
     <div class="card col-4">
-        <img src="./img/${teams[3].image}" class="card-img-top" alt="Angela">
+        <img src="./img/angela-lopez-social-media-manager.jpg" class="card-img-top" alt="Angela">
         <div class="card-body">
             <p class="card-text">${teams[3].name}</p>
             <p>${teams[3].role}</p>
@@ -95,7 +95,7 @@ document.getElementById("team_cards").innerHTML += `
 `
 document.getElementById("team_cards").innerHTML += `
     <div class="card col-4">
-        <img src="./img/${teams[4].image}" class="card-img-top" alt="Scott">
+        <img src="./img/scott-estrada-developer.jpg" class="card-img-top" alt="Scott">
         <div class="card-body">
             <p class="card-text">${teams[4].name}</p>
             <p>${teams[4].role}</p>
@@ -104,7 +104,7 @@ document.getElementById("team_cards").innerHTML += `
 `
 document.getElementById("team_cards").innerHTML += `
     <div class="card col-4">
-        <img src="./img/${teams[5].image}" class="card-img-top" alt="Barbara">
+        <img src="./img/barbara-ramos-graphic-designer.jpg" class="card-img-top" alt="Barbara">
         <div class="card-body">
             <p class="card-text">${teams[5].name}</p>
             <p>${teams[5].role}</p>
